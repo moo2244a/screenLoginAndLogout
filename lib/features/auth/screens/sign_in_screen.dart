@@ -109,7 +109,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     onGoogle: () {},
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 20),
+                    padding: const EdgeInsets.only(top: 20, bottom: 20),
                     child: GenericTextButton(
                       text: "Create a Account",
                       onPressed: () {
